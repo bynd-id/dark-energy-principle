@@ -1,30 +1,17 @@
-# The Dark Energy Principle
+# Dark Energy Principle
 
-## Overview
-This repository contains the core materials for *The Dark Energy Principle: A Falsifiable Reinterpretation of Relativity’s Invariant*.  
-The principle proposes that the universal invariant speed is not the speed of light, but the speed of dark energy, denoted \(c_{DE}\).  
-Photons are contingent travelers whose effective speed depends on cosmic environment, producing achromatic delays that scale with path length and mean offset.  
+This repository contains the open, reproducible scaffold for testing the *Dark Energy Principle*.
 
-This repo provides:
-- 📄 The LaTeX manuscript (paper/dark_energy_principle.tex)
-- 📊 Colab notebook with simulations (notebooks/photon_delays.ipynb)
-- 📈 Figures generated from simulations (figures/)
-- 📚 References and derivations (Appendix: Formalism)
+## Contents
+- dark_energy_principle.tex — LaTeX manuscript with equations, figures, and references.
+- photon_delays.ipynb — Colab notebook simulating achromatic delays.
+- figures/ — TikZ/PGFPlots diagrams embedded in the manuscript.
+- README.md — This file.
 
----
+## How to Use
+1. Compile the LaTeX file to generate the manuscript PDF.
+2. Open the notebook in [Google Colab](https://colab.research.google.com/) or Jupyter to reproduce the scaling plots.
+3. Contribute by forking the repo and submitting pull requests.
 
-## Key Equation
-The operational law is:
-
-\[
-\Delta t \approx \frac{L}{c_{DE}} \mu
-\]
-
-where:
-- \(L\) = path length  
-- \(\mu = \langle n_\gamma - 1 \rangle\) = mean offset along the sightline  
-- \(c_{DE}\) = invariant speed of dark energy  
-
----
-
-## Repository Structure
+## Data Availability
+All notebooks and figures are openly available here for reproducibility.
